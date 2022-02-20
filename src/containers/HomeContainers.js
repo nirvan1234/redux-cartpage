@@ -4,7 +4,7 @@ import {addToCart} from '../Services/Actions/actions';
 
 
 const mapStateToProps = state =>({
-    cardData:state.cardItems
+    data:state.cardItems
 })
 const mapDispatchToProps = dispatch =>({
     addToCartHandler: data=>dispatch(addToCart(data))
